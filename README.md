@@ -16,15 +16,15 @@ This is a Streamlit web application that allows users to classify, moderate, and
 *   **Data Validation:** Includes basic validation for uploaded training datasets.
 *   **Downloadable Results:** Download the processed batch results as a CSV file.
 *   **Downloadable Sample Data:** Provides a sample CSV format for training data.
+*   **Debug Mode:** Toggle debug information in the sidebar for troubleshooting.
 
 ## Installation
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <repository_url> # Replace with your repository URL if hosted
-    cd <repository_directory>
+    git clone https://github.com/ChiragPatankar/Toxic-Comment-Classifier-and-Modifier.git
+    cd Toxic-Comment-Classifier-and-Modifier
     ```
-    (If not hosted, just save the provided Python script as `app.py` or similar in a directory and navigate there.)
 
 2.  **Create a Virtual Environment (Recommended):**
     ```bash
@@ -71,7 +71,7 @@ This is a Streamlit web application that allows users to classify, moderate, and
 
 1.  **Run the Streamlit App:**
     ```bash
-    streamlit run app.py # Or the name of your Python script
+    streamlit run app.py # Or the name of your Python script if different
     ```
 
 2.  **Access the App:** The app will open in your web browser (usually `http://localhost:8501`).
@@ -119,9 +119,9 @@ While the sample data shown might include label columns, the batch processing fu
 
 The application utilizes a `Pipeline` with TF-IDF vectorization followed by a `OneVsRestClassifier` wrapping either `LogisticRegression` or `MultinomialNB` for multi-label classification.
 
-## Debug Mode
+## Screenshots
 
-Enable "Debug Mode" in the sidebar to see additional technical information, such as intermediate processing steps, model details, and error tracebacks, which can be helpful for troubleshooting.
+*(Optional: Add screenshots here to show how the app looks)*
 
 ## Contributing
 
@@ -129,7 +129,7 @@ Feel free to fork the repository and submit pull requests. Issues and feature re
 
 ## License
 
-[Specify your license here, e.g., MIT License]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
