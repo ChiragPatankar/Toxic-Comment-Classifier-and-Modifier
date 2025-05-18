@@ -119,9 +119,10 @@ While the sample data shown might include label columns, the batch processing fu
 
 The application utilizes a `Pipeline` with TF-IDF vectorization followed by a `OneVsRestClassifier` wrapping either `LogisticRegression` or `MultinomialNB` for multi-label classification.
 
-## Screenshots
+## Creators
 
-*(Optional: Add screenshots here to show how the app looks)*
+* **Preksha Dewoolkar**
+* **Chirag Patankar**
 
 ## Contributing
 
